@@ -7,21 +7,34 @@ body, html {
 
 	min-height: 100vh;
 	margin:0;
-	font-family: 'Architects Daughter', cursive;
-	padding: 0px 30px;
+	font-family: 'Comfortaa', cursive;
 
 }
+
+a{
+
+	color: #DD6158;
+}
+a:link {
+	padding: 5px 15px;
+	text-decoration: none;
+	background-color: #F7D572 ;
+	
+}
+
+
+a:hover {
+
+	background-color: #DD6158;
+	text-decoration: underline;
+	color: #F7D572;
+}
+
+
 
 body {
 	display: flex;
 	flex-direction: column;
-}
-
-main {
-	display: flex;
-	flex-grow: 1;
-	justify-content: center;
-	align-items: center;
 }
 
 img {
@@ -30,8 +43,8 @@ img {
 }
 
 header{
-
-	padding: 30px;
+	border-bottom: 1px solid grey;
+	padding: 10px 30px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -51,8 +64,19 @@ nav ul {
 	margin: 0;
 	display: flex;
 	grid-gap: 30px;
+}
 
+main {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+}
 
+.joke {
+
+	cursor: url(../images/Clown.png), auto;
 }
 
 
@@ -62,6 +86,7 @@ footer {
 	grid-template-columns: 300px 300px;
 	justify-content: center;
 	grid-gap: 50px;
+	align-items:center;
 
 }
 .credits {
