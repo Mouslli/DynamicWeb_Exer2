@@ -8,29 +8,9 @@ body, html {
 	min-height: 100vh;
 	margin:0;
 	font-family: 'Comfortaa', cursive;
+	background-color: #f2f2f2;
 
 }
-
-a{
-
-	color: #DD6158;
-}
-a:link {
-	padding: 5px 15px;
-	text-decoration: none;
-	background-color: #F7D572 ;
-	
-}
-
-
-a:hover {
-
-	background-color: #DD6158;
-	text-decoration: underline;
-	color: #F7D572;
-}
-
-
 
 body {
 	display: flex;
@@ -48,6 +28,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	
 }
 
 .logo {
@@ -66,6 +47,25 @@ nav ul {
 	grid-gap: 30px;
 }
 
+nav a{
+
+	color: #DD6158;
+}
+nav a:link {
+	padding: 5px 15px;
+	text-decoration: none;
+	background-color: #F7D572 ;
+	
+}
+
+
+nav a:hover {
+
+	background-color: #DD6158;
+	text-decoration: underline;
+	color: #F7D572;
+}
+
 main {
 	display: flex;
 	flex-grow: 1;
@@ -76,7 +76,19 @@ main {
 
 .joke {
 
-	cursor: url(../images/Clown.png), auto;
+	text-align: center;
+
+
+}
+
+.joke:hover{
+
+	cursor: url(../images/cursor.png);
+
+}
+
+.joke p:not(:first-child){
+	display: none;
 }
 
 
@@ -86,9 +98,15 @@ footer {
 	grid-template-columns: 300px 300px;
 	justify-content: center;
 	grid-gap: 50px;
-	align-items:center;
+	align-items:flex-end;
 
 }
 .credits {
 	text-align: right;
+}
+footer a {
+
+	color: #DD6158;
+	text-decoration: none;
+
 }
