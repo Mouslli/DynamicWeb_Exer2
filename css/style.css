@@ -78,7 +78,7 @@ main {
 .joke {
 
 	text-align: center;
-	cursor: url(images/Cursor.png);
+	cursor: url(../images/cursor.png), auto;
 
 
 }
