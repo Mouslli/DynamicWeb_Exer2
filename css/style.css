@@ -23,12 +23,13 @@ img {
 }
 
 header{
+	background-color: #EBEBEB;
 	border-bottom: 1px solid grey;
 	padding: 10px 30px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+
 }
 
 .logo {
@@ -77,15 +78,16 @@ main {
 .joke {
 
 	text-align: center;
+	cursor: url(images/Cursor.png);
 
 
 }
 
-.joke:hover{
+/*.joke:hover{
 
 	cursor: url(../images/cursor.png);
 
-}
+}*/
 
 .joke p:not(:first-child){
 	display: none;
